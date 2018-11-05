@@ -1,0 +1,38 @@
+#header {
+	display: grid;
+	grid-template-columns: 30vh;
+}
+#header {
+			display: flex;
+			background-color: #FFB6C1;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		#NameProject {
+			text-transform: uppercase;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			color: #FF00FF;
+			margin-top: 4%;
+		}
+		#NavBar {
+			display: grid;
+			padding-left: 10%;
+			padding-right: 10%;
+			grid-template-columns: 13vw 13vw 13vw 13vw 13vw;
+			text-transform: uppercase;
+			font-size: 250%;
+			background-color:#00BFFF;
+		}
+		a:visited, a:link {
+			color: black;
+		}
+		#Homes, #Events, #News, #Gallery, #Apply {
+			text-align: center;
+		}
+		#search {
+			padding-left: 45%;
+		}
+		#SweetPic {
+			padding-left: 75%;
+			position: absolute;
+		}
